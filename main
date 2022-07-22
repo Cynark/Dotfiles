@@ -1,0 +1,8 @@
+#!/bin/bash
+
+i3-msg "workspace 1; append_layout ~/.config/i3/workspace-1.json"
+
+gnome-terminal -- cmatrix
+gnome-terminal -- vim code.py
+gnome-terminal
+
