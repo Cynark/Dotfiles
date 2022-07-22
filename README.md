@@ -57,6 +57,7 @@ Choose the account you want to log in with but now instead of typing your passwo
 Click on it and you should see four options, click on i3, type out your password and press enter.
 
 Now you'll see this screen :desktop_computer:: 
+
 ![image](https://user-images.githubusercontent.com/109734366/180420957-d1e8fc01-5a0c-431b-be14-520ebd0b8b0a.png)
 
 
@@ -102,6 +103,7 @@ Documentation: https://www.vim.org/docs.php
 It's time to start our customization. I like to start with the terminal, since it's the first thing you encouter and the main thing you would use most of the time. 
 
 Open up the terminal menu and click on preference.
+
 ![image](https://user-images.githubusercontent.com/109734366/180425382-58fbabd4-bd3e-4ad2-bd0c-1ead61142592.png)
 
 On the left side bar click on Unnamed section and you'll be able to see 5 tabs that you can customize: Text, Colors, Scrolling, Command, Compatibility
@@ -114,18 +116,29 @@ Check the Custom font checkbox and start customzing the font. I like to change i
 2. Colors
 In the colors tab Uncheck the "transperency from system" theme and check "use transparent background". Drag the circle to the right so the transparency is full. Now you shouldn't see any diffrence (Only the color is going to change to black), but later on when we install compton, the change will take effect. Next I would change the Pallette so my terminal has the colors that I like the most.
 This is my Pallete
+
 ![image](https://user-images.githubusercontent.com/109734366/180426518-a77c9f94-5848-4d57-8264-339d2d2ceb83.png)
 
 Red: #C01C28
+
 Gray: #727472
+
 Blue: #2A7BDE
+
 Brown: #A2734C
+
 Green: #2AA198
+
 Black: #545050
+
 Orange: #F66151
+
 Purple: #A347BA
+
 Dark gray: #545050
+
 Light Gray: #D0CFCC
+
 Light Purple: #C061CB
 
 3. Scrolling
@@ -198,6 +211,7 @@ Open up the terminal and run the command:
 Now run : ```cmatrix```
 
 Now this matrix-like terminal will make you feel more like a hacker.
+
 ![image](https://user-images.githubusercontent.com/109734366/180427538-60e8bdce-f7b3-4561-bf56-d9b162a1fdba.png)
 
 # Compton
@@ -222,6 +236,7 @@ exec_always --no-startup-id compton compton
 save the file by pressing Esc and typing :wq.
 
 Press Alt+Shift+r to refresh i3 and you'll have a nice looking transparent terminal in front of you.
+
 ![image](https://user-images.githubusercontent.com/109734366/180430037-48ba1726-9000-4fdc-8300-3e4f8fd495a9.png)
 
 # i3-gaps
